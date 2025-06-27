@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send("<h1>Server Started</h1>")
 });
 
-app.get('/', (req, res) => {
+app.get('/Login', (req, res) => {
   res.sendFile(path.join(__dirname, "Login.html"))
 })
 
